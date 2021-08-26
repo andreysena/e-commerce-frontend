@@ -1,0 +1,12 @@
+.control_double_input {
+	display: flex;
+	justify-content: space-between;
+}
+
+.each_input {
+	width: 48%;
+}
+
+.control_button {
+	text-align: center;
+}

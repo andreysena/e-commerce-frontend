@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: auto;
+    z-index: 30;
+}
+
+.modal_background {
+    background-color: #000000AA;
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+.close_button {
+    position: relative;
+    align-self: flex-end;
+}
+
+.close_button:hover {
+    cursor: pointer;
+}
+
+.modal_title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1.5rem 0 1.5rem 0;
+}

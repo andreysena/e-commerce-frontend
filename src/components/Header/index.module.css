@@ -1,0 +1,116 @@
+.navbar {
+    background-color: #E01800;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: #FFF;
+    font-weight: bold;
+}
+
+.navbar a, .navbar a:hover, .navbar a:focus, .navbar a:focus-within, .navbar a:hover, #dropdown_link {
+    background-color: #E01800;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.navbar a:hover a {
+    background-color: #BE1717;
+}
+
+.navbar a:focus-visible, #navbar_brand:focus-visible {
+    outline: none;
+}
+
+.navbar a:hover, #dropdown_link:hover, .link {
+    background-color: #BE1717;
+}
+
+#dropdown_link, #dropdown_link:focus {
+    background-color: #E01800;
+}
+
+#dropdown_link:not(.is-arrowless)::after {
+    border-color: #92c1f7d3;
+}
+
+#dropdown {
+    background-color: #E01800;
+    color: #FFF;
+    border-top: 1px solid #ffe6e6;
+}
+
+#dropdown a:hover {
+    background-color: #BE1717;
+    color: #FFF;
+}
+
+#burger {
+    background-color: #BE1717;
+}
+
+#burger span {
+    background-color: #FFF;
+}
+
+#divider {
+    background-color: #FFF;
+}
+
+@media screen and (min-width: 1024px) {
+    #div_end, #div_end:focus-within {
+        background-color: transparent;
+    }
+}
+
+#menu_profile_button, #menu_profile_button span:hover, #menu_shopping_cart_button, #menu_shopping_cart_button span:hover {
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+}
+
+#menu_shopping_cart_button {
+    padding-right: 0.45em;
+}
+
+.icon {
+    color: #000;
+}
+
+.userPhotoContainer {
+    height: 32px;
+    width: 32px;
+    border: solid 1px #000;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#userName {
+    background-color: transparent;
+    color: #000;
+    font-size: 0.85rem;
+    align-self: flex-end;
+    margin-left: 0.5rem;
+}
+
+.toggle_cart_qty {
+    display: flex;
+    background-color: #FFF;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    top: 0;
+    right: 0;
+    border-radius: 50px;
+}
+
+.toggle_cart_qty a, .toggle_cart_qty a:hover {
+    background-color: transparent;
+    color: #000;
+}

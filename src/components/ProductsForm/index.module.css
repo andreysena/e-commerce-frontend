@@ -1,0 +1,22 @@
+.container {
+	display: flex;
+	background-color: #A9A9A9;
+	flex-direction: column;
+	width: 50%;
+	align-self: center;
+	padding: 1em;
+	border-radius: 10px;
+}
+
+.control_double_input {
+	display: flex;
+	justify-content: space-between;
+}
+
+.input_price {
+	width: 65%;
+}
+
+.control_button {
+	text-align: center;
+}
