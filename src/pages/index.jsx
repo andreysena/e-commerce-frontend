@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import SearchInput from '../components/SearchInput';
 import NewProductsSection from '../components/NewProductsSection';
+import OnSaleProductsSection from '../components/OnSaleProductsSection';
+
 export default function Home() {
 
 	return (
@@ -16,8 +18,8 @@ export default function Home() {
 			<main>
 				<SearchInput />
 				<NewProductsSection />
+				<OnSaleProductsSection />
 			</main>
-
 			<footer>
 			</footer>
 		</div>
